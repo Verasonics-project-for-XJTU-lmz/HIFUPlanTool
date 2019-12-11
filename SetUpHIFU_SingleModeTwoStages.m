@@ -100,7 +100,7 @@ SeqControl(9).argument = 100*1000/0.2; % 0.2 us per unit
 SeqControl(10).command = 'triggerOut';
 SeqControl(10).argument = 0; % zero delay 
 
-nsc = 10; % nsc is count of SeqControl objects
+nsc = 11; % nsc is count of SeqControl objects + 1
 n = 1; % n is count of Events
 
 % initial TPC profile 5 for HIFU transmit
