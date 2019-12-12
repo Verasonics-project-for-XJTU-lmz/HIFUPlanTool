@@ -237,7 +237,7 @@ Stage = uicontrol('parent',mf1,...
             set(PD2,'Visible','on');
             set(PDSet2,'Visible','on');
             set(BurstNumText2,'Visible','on','String','Burst Number before Off-Time (10-35)');
-            set(BurstNum2,'Visible','on','Min',10,'Max',35,'Value',10);
+            set(BurstNum2,'Visible','on','Min',10,'Max',35,'Value',15);
             set(BurstNumSet2,'Visible','on');
             set(BurstNumSet2,'String','15');
             set(BurstNumText3,'Visible','on','String','Burst Number after Off-Time (15-35)');
