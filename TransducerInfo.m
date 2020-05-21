@@ -1,6 +1,7 @@
 function Trans = TransducerInfo
 Trans.name = 'HIFUcustom';
 Trans.frequency = 1.1;
+% Bandwidth = Frequency +-10%
 Trans.Bandwidth = [Trans.frequency * 0.9, Trans.frequency * 1.1];
 Trans.type = 2;
 Trans.units = 'mm';
