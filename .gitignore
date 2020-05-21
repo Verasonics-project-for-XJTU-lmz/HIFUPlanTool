@@ -2,6 +2,7 @@
 !.gitignore
 !.gitattributes
 !HIFUplan.m
+!SetUpHIFU_SingleModeTwoStages_TriggerAtFirst.m
 !readDataFile.m
 !SetUpHIFU_MultiMode.m
 !SetUpHIFU_SingleModeOneStage.m
