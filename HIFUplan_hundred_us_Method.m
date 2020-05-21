@@ -1,4 +1,4 @@
-function HIFUplan
+function HIFUplan_hundred_us_Method
 %Define the master figure size
 delete(findobj('tag','HIFUplan'));
 evalin('base','clear all');
