@@ -1,11 +1,12 @@
 /*
 !.gitignore
 !.gitattributes
-!HIFUplan.m
+!HIFUplan_hundred_us_Method.m
 !SetUpHIFU_SingleModeTwoStages_TriggerAtFirst.m
 !readDataFile.m
 !SetUpHIFU_MultiMode.m
 !SetUpHIFU_SingleModeOneStage.m
 !SetUpHIFU_SingleModeOneStageImaging.m
 !SetUpHIFU_SingleModeTwoStages.m
+!HIFUPlan_ms_Method.m
 !TransducerInfo.m
