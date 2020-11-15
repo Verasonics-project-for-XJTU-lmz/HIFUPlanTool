@@ -77,7 +77,9 @@ SeqControl(5).command = 'sync';
 SeqControl(5).argument = 2000e6; % 2000s
 SeqControl(6).command = 'noop';
 SeqControl(6).argument = 100*1000/0.2; % 0.2 us per unit
-nsc = 7;
+SeqControl(7).command = 'triggerOut';
+SeqControl(7).argument = 17500; % delay for about 70 us; 1 point = 4 ns;
+nsc = 8;
 
 n = 1; % n is count of Events
 
@@ -97,6 +99,15 @@ Event(n).rcv = 0;
 Event(n).recon = 0;
 Event(n).process = 0;
 Event(n).seqControl = 6;
+n = n+1;
+
+%Send out a trigger singal
+Event(n).info = 'triggerOut';
+Event(n).tx = 0;
+Event(n).rcv = 0;
+Event(n).recon = 0;
+Event(n).process = 0;
+Event(n).seqControl = 7;
 n = n+1;
 
 Event(n).info = 'Set loop count for number of accumulates.';
